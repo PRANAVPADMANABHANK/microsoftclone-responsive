@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.navbar-nav {
+  font-size: 13px;
+}
+.nav-item a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.bodystyle {
+  width: 90%;
+  margin: 0 auto ;
+}
+.logostyle {
+  height: 23px;
+}
+.icons{
+  display: inline-block;
+}
+.card-body img{
+  width: 100%;
+}
+.row{
+  margin-top: 50px;
+}
+.card-body a{
+ margin-top: 100px;
+}
+
+.card-body a:hover i{
+  margin-left: 10px;
+} 
+/* .carousel-caption{
+  position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 15%;
+}
+.carousel-caption h3{
+  text-align: left;
+
+} */
+
+.main{
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background: url("images/edge.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  /* background-size: cover;
+  background-position: center; */
+  padding: 100px 0;
+ 
+}
+.main h2{
+  font-size: 2.6rem;
+  color: black;
+  font-weight: bold;
+}
+.main p{
+  margin-top: 1em;
+  padding: 0;
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: black;
+}
+.main .readmore{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #0067b8;
+  color: white;
+  margin-top: -11px;
+}
+.for-bus{
+  margin-left: 17px;
+}
+.socialsec{
+  margin-bottom: 40px;
+  
+}
+.carbon{
+  height: 500px;
+  width: 100%;
+  background: url("images/edge.jpg") no-repeat center center/cover;
+}
+.follow p{
+  margin-left: 17px;
+}
+.follow i {
+  font-size: 23px;
+  padding: 10px;
+}
+footer{
+  background: #f2f2f2;
+  padding: 40px 0;
+  line-height: 28px;
+}
+footer li{
+  list-style: none;
+  font-size: 12px;
+
+}
+footer p{
+  font-size: 15px;
+  color: #616161;
+  font-weight: bold;
+}
+footer .row{
+  padding-left:36px;
+  
+}
+footer a{
+  text-decoration: none;
+  color: #818181;
+
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(201, 201, 201); /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 16px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+}
+
+
+@media only screen and (max-width: 792px){
+  #myBtn{
+    display: none !important;
+  }
+}
